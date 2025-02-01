@@ -68,7 +68,7 @@ export function ProjectGrid() {
                 <h3 className="text-3xl font-bold mb-6 leading-tight">
                     👋🏼 Full-Stack developer with over 5 years of experience implementing efficient web solutions
                 </h3>
-                <div className="flex gap-2">
+                <div className="flex flex-wrap gap-2">
                     <Button
                         variant="secondary"
                         size="sm"
@@ -100,7 +100,7 @@ export function ProjectGrid() {
             </Card>
 
             {/* Tech Stack */}
-            <Card className="col-span-2 md:col-span- bg-[#0A1A2F] order-2 text-white border-none p-8">
+            <Card className="col-span-2 md:col-span-1 bg-[#0A1A2F] order-2 text-white border-none p-8">
                 <div className="mb-6">
                     <p className="text-blue-300 mb-2">🚀 Currently learning Nest.js</p>
                     <h3 className="text-2xl font-bold">🛠️ Tech Stack</h3>
@@ -115,7 +115,7 @@ export function ProjectGrid() {
             </Card>
 
             {/* Experiencia */}
-            <Card className="col-span-2 md:col-span- bg-[#0A1A2F] order-3 text-white border-none p-8">
+            <Card className="col-span-2 md:col-span-1 bg-[#0A1A2F] order-3 text-white border-none p-8">
                 <h3 className="text-2xl font-bold mb-4">💼 Professional Experience</h3>
                 <div className="space-y-4">
                 {experiences.map((exp, index) => (
@@ -149,7 +149,7 @@ export function ProjectGrid() {
 
             {/* Contact */}
             <Card className="col-span-2 order-5 bg-gradient-to-r from-blue-500 to-teal-400 text-white border-none p-8">
-                <h3 className="text-3xl font-bold mb-4">🫱🏼‍🫲🏼 Let's work together on your next project</h3>
+                <h3 className="text-3xl font-bold mb-4">🫱🏼‍🫲🏼 Let&apos;s work together on your next project</h3>
                 <div className="flex gap-2 flex-wrap">
                 <Button 
                     variant="secondary" 
